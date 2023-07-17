@@ -1,5 +1,5 @@
 import logo from '../Assests/Images/logo.png'
-import Profile from '../Assests/Images/Profile.png'
+import profile from '../Assests/Images/profile.png'
 import mic from '../Assests/Images/mic.png'
 import search from '../Assests/Images/search.png'
 import Hamburger from '../Assests/Images/Hamburger.png'
@@ -38,7 +38,7 @@ export default function ActionPage () {
             <button className='button'>Post property</button>
           </div>
           <div className='profileicons' >
-            <img src={Profile} alt='Profile images' />
+            <img src={profile} alt='Profile images' />
           </div>
           <div>
             <img src={Hamburger} alt='' />
