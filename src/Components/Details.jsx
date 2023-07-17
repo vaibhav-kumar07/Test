@@ -24,7 +24,7 @@ export default function Details(props) {
             </div>
             <div className='homeprices listitem'>
               <ul>
-                <li>{props.Prices}</li>
+                <li>{props.Prices}cr</li>
                 <li>{props.area}</li>
                 <li>{props.type}</li>
               </ul>
