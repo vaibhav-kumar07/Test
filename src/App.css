@@ -222,6 +222,13 @@ cursor: pointer;
 .selection{
   margin: 0 10px;
   border-right: 1px solid grey;
+  
+}
+.Actionpage{
+display: flex;
+flex-direction: column;
+align-items: center;
+
 }
 .ActionpageNavbar .ActionPage-input{
   padding: 0px 10px;
@@ -399,4 +406,11 @@ grid-template-columns: 30% 60%;
   border-radius: 5px;
   font-weight: 300;
   color: white;
+}
+
+.sorting{
+  border: 1px solid grey;
+  align-items: flex-end;
+  margin: 0;
+  background-color: yellow;
 }
