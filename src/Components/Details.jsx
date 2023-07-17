@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
 
-
-export default function Details(props) {
+export default function Details (props) {
   return (
     <section className='detailpage'>
       <div className='leftside'>leftside</div>
@@ -38,7 +37,7 @@ export default function Details(props) {
               </ul>
             </div>
             <div>
-              <h4 className="summary">{props.summary}</h4>
+              <h4 className='summary'>{props.summary}</h4>
             </div>
             <div className='phonenumber'>
               <h2>View Phone Number</h2>
@@ -48,5 +47,5 @@ export default function Details(props) {
         </div>
       </div>
     </section>
-  );
+  )
 }
