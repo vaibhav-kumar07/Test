@@ -2,7 +2,7 @@ import logo from '../Assests/Images/logo.png'
 import profile from '../Assests/Images/profile.png'
 import mic from '../Assests/Images/mic.png'
 import search from '../Assests/Images/search.png'
-import Hamburger from '../Assests/Images/Hamburger.png'
+import hamburger from '../Assests/Images/hamburger.png'
 import Details from "../Components/Details"
 
 
@@ -41,7 +41,7 @@ export default function ActionPage () {
             <img src={profile} alt='Profile images' />
           </div>
           <div>
-            <img src={Hamburger} alt='' />
+            <img src={hamburger} alt='' />
           </div>
         </div>
       </div>
