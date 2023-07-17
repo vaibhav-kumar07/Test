@@ -1,6 +1,6 @@
 import logo from '../Assests/Images/logo.png';
 import support from '../Assests/Images/support.png';
-import Profile from '../Assests/Images/Profile.png';
+import profile from '../Assests/Images/profile.png';
 import Banner from '../Assests/Images/Banner.jpg';
 
 export default function Navbar() {
@@ -9,7 +9,7 @@ export default function Navbar() {
 <>
         <section className="Navbar">
         <div className="logo">
-            <img src={logo} alt="" />
+            <img src={logo} alt="image" />
           </div>
           <div className="listitems">
             <ul>
@@ -28,7 +28,7 @@ export default function Navbar() {
               <img src={support} alt="supprt" />
             </div>
             <div className="profileicon">
-              <img src={Profile} alt="profile" />
+              <img src={profile} alt="profile" />
             </div>
           </div>
       
