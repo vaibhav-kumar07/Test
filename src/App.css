@@ -315,15 +315,16 @@ grid-template-columns: 20% 80%;
 }
 
 .homesimage img{
-  width: 80%;
+  width: 90%;
   height: 350px;
   border-radius: 20px;
+ 
 }
 
 .homedetail{
   display: flex;
   flex-direction: column;
-  width: 700px;
+  width: 900px;
  
 
 }
