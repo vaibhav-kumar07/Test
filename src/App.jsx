@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import Navbar from './Components/Navbar';
 import Search from './Components/Search';
-import ActionPage from './Components/ActionPage';
+import ActionPage from './Components/ActionPage/ActionPage';
 
 function App() {
   const [showActionPage, setShowActionPage] = useState(false);

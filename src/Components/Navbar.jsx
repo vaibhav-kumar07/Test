@@ -1,7 +1,7 @@
-import logo from '../Assests/Images/logo.png';
-import support from '../Assests/Images/support.png';
-import profile from '../Assests/Images/profile.png';
-import Banner from '../Assests/Images/Banner.jpg';
+import logo from './Images/logo.png';
+import support from './Images/support.png';
+import profile from './Images/profile.png';
+import Banner from './Images/Banner.jpg';
 
 export default function Navbar() {
   return (

@@ -1,11 +1,11 @@
 import  { useState, useEffect } from 'react';
-import logo from '../Assests/Images/logo.png';
-import profile from '../Assests/Images/profile.png';
-import mic from '../Assests/Images/mic.png';
-import search from '../Assests/Images/search.png';
-import hamburger from '../Assests/Images/hamburger.png';
-import Details from '../Components/Details';
-import Data from './Data.json';
+import logo from '../Images/logo.png';
+import profile from '../Images/profile.png';
+import mic from '../Images/mic.png';
+import search from '../Images/search.png';
+import hamburger from '../Images/hamburger.png';
+import Details from '../ActionPage/Details';
+import Data from '../Data.json';
 
 export default function ActionPage() {
   const [sortedData, setSortedData] = useState(Data);

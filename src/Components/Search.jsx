@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
 
 
-import mic from "../Assests/Images/mic.png";
-import location from "../Assests/Images/location.png";
-import search from "../Assests/Images/search.png";
+import mic from "./Images/mic.png";
+import location from "./Images/location.png";
+import search from "./Images/search.png";
 
 
 
