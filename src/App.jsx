@@ -7,9 +7,9 @@ import ActionPage from './Components/ActionPage';
 function App() {
   const [showActionPage, setShowActionPage] = useState(false);
 
-  const handleSearchClick = () => {
+  function handleSearchClick(){
     setShowActionPage(true);
-  };
+  }
 
   return (
     <>
