@@ -7,6 +7,7 @@ import hamburger from '../Images/hamburger.png';
 import Details from '../ActionPage/Details';
 import Data from '../Data.json';
 
+
 export default function ActionPage() {
   const [sortedData, setSortedData] = useState(Data);
   const [sortingOption, setSortingOption] = useState('');

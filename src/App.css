@@ -373,22 +373,28 @@ border-radius: 19px;
 
 .listitem ul li{
   width: 70%;
-  font-size: 12px;
+  font-size: 14px;
   /* background-color: white; */
   border-radius: 5px;
   padding: 0 5px  0 0px ;
   margin:0 0 0 -40px;
   /* padding: 2px; */
   font-weight: 500;
+  /* font-family: serif; */
  
 }
+ 
+.homedetail .homeprices {
+  font-family: Arial, Helvetica, serif;
 
+}
 .summary{
   font-size: 14px;
   padding: 0 2px 0 0;
   font-weight: 400;
   background-color: white;
-  padding: 2px;
+  padding: 4px;
+  border-radius: 4px;
 
 }
 
